@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+  
+  .buttons-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+  }
+  
+  .send-button {
+    height: 25px;
+    width: 80px;
+    margin: 8px 12px;
+    border: none;
+    background-color: rgb(253, 254, 255);
+    color: rgb(19, 18, 18);
+  }
+  
+  .place-center {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+  }
+  
+  .full-h {
+    height: 100vh;
+  }
+  
+  .imagLawyer{
+    background-image: url(../img/amor.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50;
+  }
+
+  .footer {
+        text-align: left;
+    background: #0c0263;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
