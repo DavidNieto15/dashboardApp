@@ -33,6 +33,10 @@
   .full-h {
     height: 100vh;
   }
+
+.colortext{
+  color: white;
+}
   
   .imagLawyer{
     background-image: url(../img/amor.png);
